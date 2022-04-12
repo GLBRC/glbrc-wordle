@@ -25,3 +25,5 @@ export const TOTAL_TRIES_TEXT = 'Total tries'
 export const SUCCESS_RATE_TEXT = 'Success rate'
 export const CURRENT_STREAK_TEXT = 'Current streak'
 export const BEST_STREAK_TEXT = 'Best streak'
+export const CLIPBOARD_MESSAGE_TEXT =
+  'Brought to you by the GLBRC IS Department. Come see us during the poster session!'

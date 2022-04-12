@@ -59,9 +59,10 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
 
       <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
         This is an open source version of the word guessing game we all know and
-        love -{' '}
+        love made for the ASM. Come by the IS Poster Area during the poster
+        session to see more cool projects and feel free to -{' '}
         <a
-          href="https://github.com/cwackerfuss/react-wordle"
+          href="https://github.com/thatRailsGuy/glbrc-wordle"
           className="underline font-bold"
         >
           check out the code here
