@@ -13,6 +13,7 @@ export const WORDS = [
   'facts',
   'fiber',
   'field',
+  'flask',
   'glbrc',
   'great',
   'green',
