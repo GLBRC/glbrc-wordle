@@ -1,5 +1,6 @@
 export const WORDS = [
   'acids',
+  'algae',
   'atoms',
   'bases',
   'biome',
