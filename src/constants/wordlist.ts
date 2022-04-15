@@ -1,7 +1,11 @@
 export const WORDS = [
+  'atoms',
+  'cells',
   'chips',
   'crops',
+  'datum',
   'ester',
+  'facts',
   'fiber',
   'glbrc',
   'green',
@@ -10,5 +14,7 @@ export const WORDS = [
   'pilot',
   'plant',
   'proof',
+  'scale',
   'sugar',
+  'weigh',
 ]
