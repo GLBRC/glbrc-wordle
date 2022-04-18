@@ -36,4 +36,5 @@ export const WORDS = [
   'sugar',
   'trees',
   'weigh',
+  'yeast',
 ]
