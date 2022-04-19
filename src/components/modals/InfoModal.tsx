@@ -14,7 +14,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         love made for the ASM. Come by the IS Poster Area during the poster
         session to see more cool projects and feel free to -{' '}
         <a
-          href="https://github.com/thatRailsGuy/glbrc-wordle"
+          href="https://github.com/GLBRC/glbrc-wordle"
           className="underline font-bold"
         >
           check out the code here
