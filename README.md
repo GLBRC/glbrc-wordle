@@ -1,4 +1,4 @@
-# ASM Wordle
+# ASM Wordle - https://wordle.glbrc.org
 
 This is a fork of React Wordle from https://github.com/cwackerfuss/react-wordle.
 
