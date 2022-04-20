@@ -44,6 +44,7 @@ export const WORDS = [
   'seeds',
   'soils',
   'solar',
+  'spore',
   'study',
   'sugar',
   'trees',
