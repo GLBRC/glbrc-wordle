@@ -8,17 +8,11 @@ type Props = {
 
 export const InfoModal = ({ isOpen, handleClose }: Props) => {
   return (
-    <BaseModal title="How to play" isOpen={isOpen} handleClose={handleClose}>
+    <BaseModal title="Information" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         This is an open source version of the word guessing game we all know and
-        love made for the ASM. Come by the IS Poster Area during the poster
-        session to see more cool projects and feel free to -{' '}
-        <a
-          href="https://github.com/GLBRC/glbrc-wordle"
-          className="underline font-bold"
-        >
-          check out the code here
-        </a>{' '}
+        love made for the ASM with a focus on bioenergy related terms. Come by
+        the IS Poster Area during the poster session to see more cool projects.
       </p>
       <br />
       <p className="text-sm text-gray-500 dark:text-gray-300">
