@@ -39,6 +39,7 @@ import './App.css'
 import { AlertContainer } from './components/alerts/AlertContainer'
 import { useAlert } from './context/AlertContext'
 import { Navbar } from './components/navbar/Navbar'
+import { GLBRCCells } from './components/grid/GLBRC'
 
 function App() {
   const prefersDarkMode = window.matchMedia(
@@ -249,6 +250,17 @@ function App() {
       />
       <div className="pt-2 px-1 pb-8 md:max-w-7xl w-full mx-auto sm:px-6 lg:px-8 flex flex-col grow">
         <div className="pb-6 grow">
+          <GLBRCCells></GLBRCCells>
+          <p className="text-l text-center ml-2.5 font-bold dark:text-white">
+            This is an open source version of the word guessing game we all know
+            and love made for the ASM with a focus on bioenergy related terms.
+            Come by the IS Poster Area during the poster session to see more
+            cool projects or to chat with us to see how we can improve your
+            workflow.
+          </p>
+        </div>
+        <div className="pb-6 grow">
+          <br />
           <Grid
             guesses={guesses}
             currentGuess={currentGuess}
