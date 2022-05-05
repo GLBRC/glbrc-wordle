@@ -252,11 +252,12 @@ function App() {
         <div className="pb-6 grow">
           <GLBRCCells></GLBRCCells>
           <p className="text-l text-center ml-2.5 font-bold dark:text-white">
-            This is an open source version of the word guessing game we all know
-            and love made for the ASM with a focus on bioenergy related terms.
             Come by the IS Poster Area during the poster session to see more
             cool projects or to chat with us to see how we can improve your
-            workflow.
+            workflow.{' '}
+            <a href="https://is.glbrc.org">
+              Check out IS.GLBRC.org for more info about how we can help.
+            </a>
           </p>
         </div>
         <div className="pb-6 grow">
