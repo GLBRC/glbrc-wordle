@@ -78,7 +78,7 @@ export const getWordOfDay = () => {
   // May 17, 2022 Game Epoch
   const epochMs = new Date('May 17, 2022 12:00:00').valueOf()
   const now = Date.now()
-  const msInDay = 3600000
+  const msInDay = 7200000
   const index = Math.floor((now - epochMs) / msInDay)
   const nextday = (index + 1) * msInDay + epochMs
 
