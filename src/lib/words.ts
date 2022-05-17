@@ -76,7 +76,7 @@ export const localeAwareUpperCase = (text: string) => {
 
 export const getWordOfDay = () => {
   // May 17, 2022 Game Epoch
-  const epochMs = new Date(2022, 5, 17, 0).valueOf()
+  const epochMs = new Date('May 17, 2022 12:00:00').valueOf()
   const now = Date.now()
   const msInDay = 3600000
   const index = Math.floor((now - epochMs) / msInDay)
